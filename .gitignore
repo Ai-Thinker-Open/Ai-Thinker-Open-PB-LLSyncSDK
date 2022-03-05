@@ -1,0 +1,76 @@
+.vscode/*
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+# keil start
+# User-specific uVision files
+*.opt
+*.uvopt
+*.uvoptx
+*.uvgui
+*.uvgui.*
+*.uvguix.*
+
+# Listing files
+*.cod
+*.htm
+*.i
+*.lst
+*.map
+*.m51
+*.m66
+# define exception below if needed
+*.scr
+
+# Object and HEX files
+*.axf
+*.b[0-3][0-9]
+*.hex
+*.d
+*.crf
+*.elf
+*.hex
+*.h86
+*.obj
+*.o
+*.sbr
+*.vscode
+
+# Build files
+# define exception below if needed
+*.bat
+*._ia
+*.__i
+*._ii
+
+# Generated output files
+/Listings/*
+/Objects/*
+/DebugConfig/*
+
+# Debugger files
+# define exception below if needed
+
+*.dbgconf
+
+# Other files
+*.build_log.htm
+*.cdb
+*.dep
+*.ic
+*.lin
+*.lnp
+*.orc
+
+
+# Miscellaneous
+*.tra
+*.bin
+*.fed
+*.l1p
+*.l2p
+*.iex
+
+# keil end
