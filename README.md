@@ -4,7 +4,7 @@
 
 
 | 适合的模组 | PB-01 | PB-02 |
-| ----------------- | ----- |
+| ----------------- | ----- | ----- |
 
 
 # 一、注册腾讯物联开发平台设备
@@ -108,7 +108,7 @@ qcloud_iot_explorer_ble
 ### 烧录步骤
 
 - 1、先通过安信可资料库网站下载一个固件烧录工具：https://docs.ai-thinker.com/_media/ble/hardware/pb-download.zip
-- 2、由于安信可PB系列模组是采用ARM核的，编译源码需要Keil 5的编译软件，源码获取请联系 xuhongv@aithinker.com ，附上公司名字、项目情况、申请原因等。
+- 2、由于安信可PB系列模组是采用ARM核的，编译源码需要Keil 5的编译软件，源码获取：https://github.com/Ai-Thinker-Open/Ai-Thinker-Open-PB-LLSyncSDK ，如需技术支持请联系 xuhongv@aithinker.com ，附上公司名字、项目情况、申请原因等。
 - 3、编译源码之后，需要烧录2个固件：第一个是 tools/ota_dualbank_noFCT.hex 文件，第二个是编译生成的 project\bin\qcloud_iot.hex 文件。
 - 4、选择PhyPlusKit.exe工具，打开 HEX Herge 选项卡，选择以上2个工具，具体的配置截图如下：
 
